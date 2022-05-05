@@ -1,9 +1,8 @@
-mod feature;
+use genetics;
+use bevy::prelude::*;
 
-// aaaaaaaaaaaaaaaaaaaaa
-mod attribute;
-mod skill;
-mod organism;
 fn main() {
-    println!("Hello, world!");
+    App::new()
+        .add_plugins(DefaultPlugins)
+        .run();
 }
