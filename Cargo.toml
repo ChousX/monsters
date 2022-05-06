@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 genetics =  {git="https://github.com/ChousX/genetics.git"}
 bevy = "0.7"
+noise = "*"

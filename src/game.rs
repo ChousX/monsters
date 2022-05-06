@@ -8,6 +8,7 @@ impl Plugin for GamePlug{
         app
             .add_system_set(SystemSet::on_enter(AppState::Game).with_system(spawn_camera))
             .add_system_set(SystemSet::on_enter(AppState::Init).with_system(load_textur))
+            .add_system_set(SystemSet::on_update(AppState::Game).with_system(load_textur))
             ;
     }
 }

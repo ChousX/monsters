@@ -2,6 +2,7 @@ use bevy::prelude::*;
 
 mod init;
 mod game;
+mod map;
 mod monster;
 
 pub const CLEAR: Color = Color::rgb(0.1, 0.1, 0.1);
